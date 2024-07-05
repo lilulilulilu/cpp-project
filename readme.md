@@ -1,8 +1,12 @@
 # compile with cmake
-mkdir build
-cd build
-cmake ..
-make
+ ```shell
+ mkdir build
+ cd build
+ cmake ..
+ make
+```
 
 # run
+```shell
 ./cpp-project 
+```
