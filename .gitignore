@@ -1,1 +1,44 @@
 build
+src/main.dSYM
+
+# 忽略编译生成的文件
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.class
+
+# 忽略 CMake 生成的文件
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 忽略构建目录
+build/
+bin/
+lib/
+
+# 忽略日志文件和临时文件
+*.log
+*.tmp
+*.swp
+*.bak
+*.dSYM/
+
+# 忽略 IDE 生成的文件
+.idea/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# 忽略 MacOS 特有的文件
+.DS_Store
+
+
+# 忽略由 main.cpp 生成的可执行文件
+main
